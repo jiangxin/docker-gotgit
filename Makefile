@@ -1,11 +1,10 @@
 all:
-	@echo "build: build gotgit/gotgit"
+	@echo "build: Download gotgit e-book (if not exist) and compile it"
 
 build:
+	@docker run --rm -it -v $$(pwd)/gotgit:/data gotgit/gotgit
+
+docker:
 	@docker build -t gotgit/gotgit .
 
-push
-	@docker login
-	@docker push gotgit/gotgit
-
-.PHONY: all build run
+.PHONY: all build
