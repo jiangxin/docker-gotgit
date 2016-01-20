@@ -29,7 +29,7 @@ GotGit 是我在2010年底写的一本书《Git权威指南》的代号，五年
 
 # GotGit 开源
 
-GitGit 书稿开源在 GitHub 上：[https://github.com/gotgit/gotgit/](https://github.com/gotgit/gotgit/)。采用 Fork + Pull Request 方式参与贡献。
+GotGit 书稿开源在 GitHub 上：[https://github.com/gotgit/gotgit/](https://github.com/gotgit/gotgit/)。采用 Fork + Pull Request 方式参与贡献。
 
 在线浏览电子书： [http://worldhello.net/gotgit/](http://worldhello.net/gotgit/)。
 
